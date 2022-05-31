@@ -2745,52 +2745,35 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/shared/Logo
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/shared/Footer.vue");
 
+const _sfc_main = {}
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
-const _sfc_main = /* @__PURE__ */ __vite_ssr_import_3__.defineComponent({
-  name: "index",
-  setup(__props, { expose }) {
-    expose();
-    const buttonsHome = __vite_ssr_import_2__.ref([
-      { id: 1, label: "Je commande" },
-      { id: 2, label: "Qui sommes-nous ?" }
-    ]);
-    const __returned__ = { buttonsHome };
-    Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
-    return __returned__;
-  }
-});
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_Logo = __vite_ssr_import_0__.default
+  const _component_Footer = __vite_ssr_import_1__.default
+
+  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}><div>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_Logo, null, null, _parent))
+  _push(`<div class="flex flex-col items-center pt-[100px]"><button class="bg-white text-purple-element tracking-wide h-16 p-4 font-bold uppercase text-2xl rounded-full">Je commande</button><button class="bg-white text-purple-element tracking-wide h-16 p-4 font-bold uppercase text-2xl rounded-full">Qui sommes-nous ?</button></div></div>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_Footer, null, null, _parent))
+  _push(`</div>`)
+}
+
+
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
-
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_Logo = __vite_ssr_import_0__.default;
-  const _component_Footer = __vite_ssr_import_1__.default;
-  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(_attrs)}><div>`);
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_Logo, null, null, _parent));
-  _push(`<div class="pt-[100px]"><!--[-->`);
-  __vite_ssr_import_5__.ssrRenderList($setup.buttonsHome, (button) => {
-    _push(`<div class="flex flex-col items-center p-2"><button class="bg-white text-purple-element tracking-wide h-16 w-fit p-4 font-bold uppercase text-2xl rounded-full">${__vite_ssr_import_5__.ssrInterpolate(button.label)}</button></div>`);
-  });
-  _push(`<!--]--></div></div>`);
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_Footer, null, null, _parent));
-  _push(`</div>`);
-}
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup;
+const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_6__.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/index.vue");
-  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
-};
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_7__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/home/caroline/Bureau/Mon-Kit-Apero/pages/index.vue"]]);
-
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/caroline/Bureau/Mon-Kit-Apero/pages/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -3016,52 +2999,35 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/shared/Logo
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/shared/Footer.vue");
 
+const _sfc_main = {}
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
-const _sfc_main = /* @__PURE__ */ __vite_ssr_import_3__.defineComponent({
-  name: "index",
-  setup(__props, { expose }) {
-    expose();
-    const buttonsHome = __vite_ssr_import_2__.ref([
-      { id: 1, label: "Je commande" },
-      { id: 2, label: "Qui sommes-nous ?" }
-    ]);
-    const __returned__ = { buttonsHome };
-    Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
-    return __returned__;
-  }
-});
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_Logo = __vite_ssr_import_0__.default
+  const _component_Footer = __vite_ssr_import_1__.default
+
+  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}><div>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_Logo, null, null, _parent))
+  _push(`<div class="flex flex-col items-center pt-[100px]"><button class="bg-white text-purple-element tracking-wide h-16 p-4 font-bold uppercase text-2xl rounded-full">Je commande</button><button class="bg-white text-purple-element tracking-wide h-16 p-4 font-bold uppercase text-2xl rounded-full">Qui sommes-nous ?</button></div></div>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_Footer, null, null, _parent))
+  _push(`</div>`)
+}
+
+
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
-
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_Logo = __vite_ssr_import_0__.default;
-  const _component_Footer = __vite_ssr_import_1__.default;
-  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(_attrs)}><div>`);
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_Logo, null, null, _parent));
-  _push(`<div class="pt-[100px]"><!--[-->`);
-  __vite_ssr_import_5__.ssrRenderList($setup.buttonsHome, (button) => {
-    _push(`<div class="flex flex-col items-center p-2"><button class="bg-white text-purple-element tracking-wide h-16 w-fit p-4 font-bold uppercase text-2xl rounded-full">${__vite_ssr_import_5__.ssrInterpolate(button.label)}</button></div>`);
-  });
-  _push(`<!--]--></div></div>`);
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_Footer, null, null, _parent));
-  _push(`</div>`);
-}
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup;
+const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_6__.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/index.vue");
-  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
-};
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_7__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/home/caroline/Bureau/Mon-Kit-Apero/pages/index.vue"]]);
-;
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/caroline/Bureau/Mon-Kit-Apero/pages/index.vue"]]);
 }
 
 
