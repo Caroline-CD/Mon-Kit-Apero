@@ -2,5 +2,7 @@
 </script>
 
 <template>
-
+    <div>
+        <p>It's work</p>
+    </div>
 </template>
