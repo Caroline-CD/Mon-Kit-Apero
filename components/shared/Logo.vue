@@ -3,7 +3,7 @@
   <img
     class="h-60"
     src="@/assets/img/logo.png"
-    alt="Logo Retail Shake"
+    alt="Mon Kit Apéro"
   >
 </div>
 </template>

@@ -3,6 +3,7 @@
 
 <template>
     <div>
-        <p>It's work</p>
+        <Nav />
+        <LogoOther />
     </div>
 </template>

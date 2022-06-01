@@ -6,7 +6,7 @@
 <div>
      <Logo />
           <div class="flex flex-col items-center pt-[100px]"> 
-               <NuxtLink to="/makeorder">
+               <NuxtLink to="/customerchoice">
                      <button class="bg-white text-purple-element tracking-wide h-16 p-4 font-bold uppercase text-2xl rounded-full">Je commande</button>
                </NuxtLink>
                <NuxtLink to="/whoarewe">
