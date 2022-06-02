@@ -7,6 +7,6 @@
         <NuxtLink to="/">
             <RIcon name="ChevronLeft" class="w-14 text-white mt-3"/>
         </NuxtLink>
-        <RIcon name="ShoppingBag" class="w-12 text-yellow-element m-3" />
+        <RIcon name="ShoppingBag" class="w-12 text-yellow-dark m-3" />
     </div>  
 </template>
